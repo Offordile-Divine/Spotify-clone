@@ -1,0 +1,29 @@
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header_left {
+    display: flex;
+}
+
+.input {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    width: 350px;
+    border-radius: 90px;
+    padding: 15px;
+}
+
+.input input {
+    width: 200px;
+    outline: none;
+    border: none;
+}
+
+.icon {
+    font-size: 24px;
+    cursor: pointer;
+}

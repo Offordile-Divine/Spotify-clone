@@ -1,0 +1,20 @@
+.main {
+    padding-top: 20px;
+}
+
+.main p {
+    margin: 0;
+    color: rgb(192,193,201);
+}
+
+.main h1 {
+    font-weight: 700;
+    margin: 0;
+}
+
+.right {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    margin: 0;
+}

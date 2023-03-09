@@ -1,0 +1,87 @@
+.image {
+    position: relative;
+}
+
+.image img{
+    /* background-color:linear-gradient(rgba(0, 0, 0, 0.8), gray); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 500px;
+    height: 200px;
+    border-radius: 40px;
+    width: 100%;
+}
+
+.art {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    color: rgb(192,193,201);
+}
+
+.top {
+    margin: 0;
+    padding-top: 10px;
+    position: absolute;
+    top: 30px;
+    left: 20px;
+    font-size: 26px;
+}
+
+.btn {
+    position: absolute;
+    bottom: 20px;
+    left: 30px;
+    display: flex;
+}
+
+.monthly {
+    position: absolute;
+    right: 30px;
+    bottom: 40px;
+    color: gray;
+}
+
+.figure {
+    position: absolute;
+    right: 30px;
+    bottom: 20px;
+    color: #ffff;
+}
+
+
+.play {
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #15111e;
+    color: #ffff;
+    display: flex;
+    align-items: center;
+    border: none;
+    height: 30px;
+    cursor: pointer;
+}
+
+.play:hover {
+    background-color: #ffff;
+    color: #15111e;
+}
+
+.follow {
+    margin-left: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    color: #15111e;
+    background-color: #ffff;
+    border: none;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.follow:hover {
+    background-color: #15111e;
+    color: #ffff;
+}

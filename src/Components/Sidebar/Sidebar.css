@@ -1,0 +1,20 @@
+.sidebar {
+    flex: 0.2;
+    min-width: 200px;
+    padding: 20px;
+    background: #ffffff;
+}
+
+.sidebar_logo {
+    height: 70px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    object-fit: contain;
+    margin-left: auto;
+}
+
+.title  {
+    color: #d6d6d6;
+    padding-left: 10px;
+    font-size: 14px;
+}
