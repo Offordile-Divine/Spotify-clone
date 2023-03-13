@@ -1,6 +1,6 @@
 export const authEndpoint = "https://accounts.spotify.com/authorize";
 const clientId = "99e3a8e7ece54d309aee7389d8cac44c";
-const redirectUri = "http://127.0.0.1:5173/";
+const redirectUri = "https://gentle-salamander-3ce0ff.netlify.app";
 const scopes = [
   "user-read-currently-playing",
   "user-read-recently-played",
