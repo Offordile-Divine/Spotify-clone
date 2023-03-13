@@ -15,7 +15,7 @@ import PauseCircleOutlineIcon from "@mui/icons-material/PauseCircleOutline";
 import PlaylistPlayIcon from "@mui/icons-material/PlaylistPlay";
 import "./Footer.css";
 import { useDataLayerValue } from "../../../../Utils/DataLayer";
-import { Grid, Slider } from "@material-ui/core";
+// import { Grid, Slider } from "@material-ui/core";
 
 function Footer({spotify}) {
   const [{ token, item , playing }, dispatch] = useDataLayerValue();
@@ -105,7 +105,7 @@ function Footer({spotify}) {
           <ShuffleIcon className="yoo" />
         </div>
 
-        <div className="footer_right">
+        {/* <div className="footer_right">
           <Grid container spacing={2}>
             <Grid item>
               <PlaylistPlayIcon className="yoo"/>
@@ -117,9 +117,9 @@ function Footer({spotify}) {
               <Slider aria-labelledby="continuous-slider" />
             </Grid>
           </Grid> 
-        </div> 
+        </div>  */}
 
-        {/* <div className="footer_right">
+        <div className="footer_right">
           <VolumeDownIcon className="down"/>
           <div className="to">
             <div className="li">
@@ -134,9 +134,8 @@ function Footer({spotify}) {
             <div className="line"></div>
           </div>
           <div><p>2.45</p></div>
-        </div> */}
+        </div>
       </div> 
-    </div> 
   </div>
   );
 }
