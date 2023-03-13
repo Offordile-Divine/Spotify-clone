@@ -13,8 +13,75 @@
     margin-left: auto;
 }
 
+.home.active {
+    background-color: black;
+}
+
 .title  {
     color: #d6d6d6;
     padding-left: 10px;
     font-size: 14px;
+}
+
+.zero {
+    display: flex;
+    align-items: center;
+}
+
+.red {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: red;
+}
+
+.yellow {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: yellow;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.green {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: green;
+}
+
+.general {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.home {
+    background-color: black;
+}
+
+.cep {
+    display: flex;
+    align-items: center;
+}
+
+.cep p {
+    font-size: 12px;
+    margin: 0;
+    padding-left: 7px;
+}
+
+.cep img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%
+}
+
+.cepContent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 40px;
+    cursor: pointer;
 }

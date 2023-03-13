@@ -1,11 +1,12 @@
 import React from 'react'
 import './Image.css'
-import img1 from './On top of world.jpg'
+import img1 from './top world.jpg'
 
 function Image() {
   return (
     <div className='image'>
         <img src={img1} alt='' />
+        <div className="gradient"></div>
         <p className='art'>Artist</p>
         <h3 className='top'>On Top <br /> of the World</h3>
         <div className='btn'>

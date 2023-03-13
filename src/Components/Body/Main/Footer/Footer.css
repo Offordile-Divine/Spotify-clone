@@ -1,18 +1,19 @@
 .footer {
-    padding: 20px;
+    padding-bottom: 20px;
 }
 
 .foot {
-    position: fixed;
-    bottom: 20px;
+    width: 90%;
+    padding: 20px;
+    margin: auto;
+    background-color: #ffffff;
+    border-radius: 20px;
+}
+
+.feet {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 100%;
-    padding: 20px;
-    background-color: #ffffff;
-    border-radius: 20px;
-    width: 520px;
 }
 
 .footer_left {
@@ -23,19 +24,26 @@
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    width: 35%;
 }
 
 .footer_right {
     display: flex;
+    align-items: center;
     width: 30%;
 }
 
 .circle {
     font-size: 40;
     background-color: black;
-    color: #ffffff;
+    color: rgb(244,245,254);;
     border-radius: 50%;
     cursor: pointer;
+}
+
+.circle:hover {
+    transform: scale(1.2) !important;
+    transition: transform 0.2s ease-in-out;
 }
 
 .yea {
@@ -45,11 +53,72 @@
     cursor: pointer;
 }
 
+.yea:hover {
+    transform: scale(1.2) !important;
+    transition: transform 0.2s ease-in-out;
+}
+
 .yoo {
     color: #838286;
     cursor: pointer;
 }
 
+.yoo:hover {
+    transform: scale(1.2) !important;
+    transition: transform 0.2s ease-in-out;
+}
+
 .next {
     cursor: pointer;
 }
+
+.next:hover {
+    transform: scale(1.2) !important;
+    transition: transform 0.2s ease-in-out;
+}
+
+.co{
+    width: 80%;
+    color: white;
+    background-color: gray;
+    padding: 2px;
+    cursor: pointer
+}
+
+.line{
+    padding: 2px;
+    width: 30%;
+    background-color: black;
+}
+
+.to {
+    width: 100%;
+    background-color: rgb(244,245,254);;
+    padding: 2px;
+    height: fit-content;
+}
+
+.li {
+    padding: 2px;
+    width: 30%;
+    background-color: black;
+}
+
+.trail {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+}
+
+.down {
+    cursor: pointer;
+}
+
+.up {
+    cursor: pointer;
+}
+
+
+

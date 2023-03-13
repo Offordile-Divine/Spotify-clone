@@ -6,10 +6,11 @@
     /* background-color:linear-gradient(rgba(0, 0, 0, 0.8), gray); */
     background-size: cover;
     background-repeat: no-repeat;
-    width: 500px;
-    height: 200px;
+    height: 230px;
     border-radius: 40px;
     width: 100%;
+    object-fit: cover;
+    background: linear-gradient(transparent, rgba(0, 0, 0, 1));
 }
 
 .art {
@@ -23,14 +24,14 @@
     margin: 0;
     padding-top: 10px;
     position: absolute;
-    top: 30px;
+    top: 40px;
     left: 20px;
     font-size: 26px;
 }
 
 .btn {
     position: absolute;
-    bottom: 20px;
+    bottom: 40px;
     left: 30px;
     display: flex;
 }
@@ -38,26 +39,29 @@
 .monthly {
     position: absolute;
     right: 30px;
-    bottom: 40px;
+    bottom: 60px;
     color: gray;
 }
 
 .figure {
     position: absolute;
     right: 30px;
-    bottom: 20px;
+    bottom: 30px;
     color: #ffff;
 }
 
 
 .play {
     padding: 20px;
-    border-radius: 10px;
+    border-radius: 20px;
     background-color: #15111e;
     color: #ffff;
     display: flex;
     align-items: center;
+    justify-content: center;
     border: none;
+    width: 100px;
+    text-align: center;
     height: 30px;
     cursor: pointer;
 }
@@ -70,11 +74,13 @@
 .follow {
     margin-left: 10px;
     padding: 20px;
-    border-radius: 10px;
-    color: #15111e;
-    background-color: #ffff;
-    border: none;
+    border-radius: 20px;
+    color: #ffff;
+    background-color: transparent;
+    border: 1px solid #15111e;
     height: 30px;
+    width: 100px;
+    text-align: center;
     display: flex;
     align-items: center;
     justify-content: center;

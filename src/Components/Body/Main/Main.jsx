@@ -5,18 +5,17 @@ import Footer from './Footer/Footer';
 import Image from './Image Side/Image';
 import Playlist from './Playlist/Playlist';
 
-function Main() {
+function Main({spotify}) {
   return (
     <div className='main'>
         <p>What's hot🔥</p>
         <h1>Trending</h1>
         <div className='right'>
-            <p>More</p>
+            <button className='more'>More</button>
             <KeyboardArrowRightIcon />
         </div>
         <Image />
-        <Playlist />
-        <Footer />
+        <Playlist spotify={spotify}/>
     </div>
   )
 }

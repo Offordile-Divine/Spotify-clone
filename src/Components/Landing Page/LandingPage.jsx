@@ -4,12 +4,12 @@ import Body from "../Body/Body";
 import RightSideBar from "../RightSideBar/RightSideBar";
 import "./LandingPage.css";
 
-function LandingPage() {
+function LandingPage( {spotify} ) {
   return (
     <div className="landingpage">
       <Sidebar />
-      <Body />
-      <RightSideBar />
+      <Body spotify={spotify}/>
+      <RightSideBar spotify={spotify} />
     </div>
   );
 }

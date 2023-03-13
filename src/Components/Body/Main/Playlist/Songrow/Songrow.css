@@ -1,0 +1,32 @@
+.table {
+    display: flex;
+} 
+
+.numbering {
+    font-size: 10px;
+    padding: 10px;
+}
+
+.name {
+    width: 20%;
+    font-size: 14px;
+    padding: 10px;
+}
+
+.artist {
+    width: 20%;
+    font-size: 14px;
+    padding: 10px;
+}
+
+.time {
+    width: 20%;
+    font-size: 14px;
+    padding: 10px;
+}
+
+.album {
+    width: 20%;
+    font-size: 14px;
+    padding: 10px;
+}

@@ -3,6 +3,14 @@
     min-width: 200px;
     background: rgb(244,245,254);
     padding: 20px;
+    position: relative;
+}
+
+.chips {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .chips p {
@@ -13,11 +21,12 @@
 
 .chips1 {
     display: flex;
+    cursor: pointer;
 }
 
 .one {
     background-color: #ffffff;
-    padding: 10px;
+    padding: 7px;
     border-radius: 20px;
 }
 
@@ -30,5 +39,19 @@
 
 .fav {
     color: rgb(39,39,41);
-    font-size: 26px;
+    font-size: 24px;
+    margin: 0;
+    padding-top: 30px;
 }
+
+.foot_two {
+    position: absolute;
+    bottom: 70px;
+    padding-bottom: 20px;
+    padding-right: 0 !important;
+}
+
+.images img {
+    width: 80%;
+}
+

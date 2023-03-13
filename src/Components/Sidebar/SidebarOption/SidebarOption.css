@@ -21,3 +21,23 @@
     padding-right: 10px;
 }
 
+.siderbarOption .home {
+    background-color: black;
+}
+
+.tona h4 {
+    margin: 0;
+}
+
+.tona p {
+    margin: 0;
+}
+
+.wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    background-color: #ffff;
+}
+

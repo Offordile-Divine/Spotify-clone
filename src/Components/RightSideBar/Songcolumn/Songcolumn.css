@@ -1,0 +1,35 @@
+.tails {
+    margin: 0;
+    font-size: 14px;
+}
+
+.taylor {
+    display: flex;
+}
+
+.taylor img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.in p{
+    margin: 0;
+    font-size: 10px;
+}
+
+.swift {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.song {
+    padding-left: 7px;
+}
+
+.dot {
+    cursor: pointer;
+}

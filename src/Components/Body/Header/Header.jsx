@@ -4,8 +4,10 @@ import SidebarOption from '../../Sidebar/SidebarOption/SidebarOption'
 import KeyboardBackspaceIcon from '@mui/icons-material/KeyboardBackspace';
 import EastIcon from '@mui/icons-material/East';
 import SearchIcon from '@mui/icons-material/Search';
+import { useDataLayerValue } from '../../../Utils/DataLayer';
 
 function Header() {
+  const [{ user }, dispatch ]= useDataLayerValue();
   return (
     <div className='content'>
         <div className='header_left'>
